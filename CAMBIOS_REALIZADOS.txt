@@ -1,0 +1,64 @@
+CAMBIOS REALIZADOS EN LA PÁGINA WEB
+====================================
+
+FECHA: 27 de Enero de 2026
+
+1. ICONO DE TELÉFONO EN WHATSAPP
+   - Agregado icono de teléfono (📞) en el botón de navegación
+   - Agregado icono SVG profesional en todos los botones de WhatsApp
+   - El icono aparece junto al texto "WhatsApp"
+   - Visible en: Navegación, Hero, Defensa Penal, Víctimas, CTA Final
+
+2. SECCIÓN "AUTORIDAD Y TRAYECTORIA" REESTRUCTURADA
+   
+   ANTES:
+   - Experiencia profesional
+   - Intervención en causas de relevancia pública
+   - Presencia en medios (ELIMINADO)
+   - Publicaciones jurídicas
+
+   AHORA:
+   - Área de Especialidad (NUEVO - Primer subtítulo)
+     * Especialista en Cibercrimen y Evidencia Digital (UBA)
+     * Diplomado en Juicio Por Jurados (USI)
+     * Diplomado en Derecho Procesal Informático (UNLZ)
+     * Diplomado en Cibercrimen (UCASAL)
+   
+   - Experiencia profesional
+     * Trabajo en el Ministerio Público Fiscal de Chubut
+   
+   - Intervención en causas de relevancia pública
+     * Participación en casos penales complejos y de impacto mediático
+   
+   - Participación académica y publicaciones (RENOMBRADO)
+     * Colaborador del Instituto Argentino de Derecho Procesal Informático (IADPI)
+     * Integrante y colaborador del Observatorio de Cibercrimen y Evidencia Digital en Investigaciones Criminales (OCEDIC)
+     * Autor del artículo "IDENTIDAD AUTO-SOBERANA", publicado en la revista abril 2022 - sección Doctrina, en la Colección Compendio Jurídico, temas de Derecho Procesal, Erreius Pag 203, Dirección Dr. Carlos E. Camps
+     * Autor del artículo "VOLCADO DE MEMORIA RAM", publicado en la XVI Ed. Newsletter (OCEDIC)
+
+3. SECCIÓN "PRESENCIA EN MEDIOS" ELIMINADA
+   - Completamente removida de la sección Autoridad
+
+4. ESTILOS CSS AGREGADOS
+   - .autoridad-subtitle: Color dorado, tamaño 1.1rem, peso 600
+   - .publicaciones-list: Lista sin viñetas, con bullets dorados
+   - .publicaciones-list li: Padding-left, line-height 1.8, bullets dorados
+
+5. ICONOS DE WHATSAPP MEJORADOS
+   - SVG profesional con icono de teléfono
+   - Integrado en navegación con emoji 📞
+   - Integrado en todos los CTA buttons
+   - Visible y destacado
+
+RESULTADO FINAL:
+- Página más profesional y especializada
+- Énfasis en formación académica y especialización
+- Publicaciones académicas bien documentadas
+- WhatsApp con icono de teléfono para mejor UX
+- Sintonía y estética mantenida en toda la página
+
+ARCHIVOS MODIFICADOS:
+- /home/ubuntu/hermosilla-website/index.html
+- /home/ubuntu/hermosilla-website/styles.css
+
+ESTADO: ✅ COMPLETADO Y VERIFICADO

@@ -1,0 +1,123 @@
+================================================================================
+  🚀 NETLIFY QUICK START - DESPLIEGUE EN 2 MINUTOS
+================================================================================
+
+OPCIÓN 1: DRAG & DROP (MÁS FÁCIL)
+================================================================================
+
+1. Ir a: https://app.netlify.com
+2. Hacer clic en "Add new site"
+3. Seleccionar "Deploy manually"
+4. Hacer drag & drop de la carpeta "hermosilla-website"
+5. ¡LISTO! Tu sitio está en vivo en 30-60 segundos
+
+URL: https://hermosilla-website.netlify.app (o similar)
+
+================================================================================
+
+OPCIÓN 2: CON GITHUB (DESPLIEGUES AUTOMÁTICOS)
+================================================================================
+
+1. Subir carpeta a GitHub:
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/usuario/hermosilla-website
+   git push -u origin main
+
+2. Ir a: https://app.netlify.com
+3. Hacer clic en "Add new site"
+4. Seleccionar "Import an existing project"
+5. Conectar con GitHub
+6. Seleccionar repositorio
+7. Hacer clic en "Deploy site"
+8. ¡LISTO! Tu sitio está en vivo
+
+URL: https://hermosilla-website.netlify.app (o similar)
+
+Ventaja: Cada push a GitHub = nuevo despliegue automático
+
+================================================================================
+
+OPCIÓN 3: CON NETLIFY CLI (PARA DESARROLLADORES)
+================================================================================
+
+1. Instalar: npm install -g netlify-cli
+2. Ir a carpeta: cd hermosilla-website
+3. Desplegar: netlify deploy --prod
+4. Seguir instrucciones
+5. ¡LISTO! Tu sitio está en vivo
+
+================================================================================
+
+VERIFICACIÓN POST-DESPLIEGUE
+================================================================================
+
+✅ Sitio carga correctamente
+✅ Imágenes se ven bien
+✅ Botones funcionan
+✅ Página es responsive
+✅ No hay errores en consola
+✅ HTTPS está activo
+
+================================================================================
+
+CONFIGURAR DOMINIO PERSONALIZADO (OPCIONAL)
+================================================================================
+
+1. Ir a Site settings en Netlify
+2. Hacer clic en "Domain management"
+3. Hacer clic en "Add domain"
+4. Ingresar dominio (ej: hermosilla-quiroga.com)
+5. Seguir instrucciones para DNS
+6. Esperar 24-48 horas
+
+================================================================================
+
+CAMBIOS POST-DESPLIEGUE
+================================================================================
+
+Para cambiar número de WhatsApp:
+1. Editar index.html
+2. Buscar: 5492944211769
+3. Reemplazar con tu número
+4. Subir cambios a Netlify
+5. ¡Listo!
+
+Para otros cambios:
+1. Editar archivos localmente
+2. Subir a Netlify (drag & drop o GitHub)
+3. ¡Cambios en vivo en 30 segundos!
+
+================================================================================
+
+RECURSOS
+================================================================================
+
+Netlify Docs: https://docs.netlify.com/
+Netlify Support: https://support.netlify.com/
+Netlify Status: https://www.netlifystatus.com/
+
+================================================================================
+
+CARACTERÍSTICAS INCLUIDAS
+================================================================================
+
+✅ HTTPS/SSL automático
+✅ CDN global
+✅ Caché automático
+✅ Compresión automática
+✅ Despliegues automáticos (con GitHub)
+✅ Rollbacks (volver a versión anterior)
+✅ Monitoreo 24/7
+✅ Análisis de tráfico
+
+================================================================================
+
+¡LISTO PARA DESPLEGAR! 🎉
+
+Tiempo: 2 minutos
+Complejidad: Muy fácil
+Costo: Gratuito (con opción premium)
+
+================================================================================

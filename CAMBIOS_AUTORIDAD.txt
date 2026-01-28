@@ -1,0 +1,28 @@
+CAMBIOS REALIZADOS EN LA SECCIÓN "AUTORIDAD Y TRAYECTORIA"
+===========================================================
+
+ELIMINADO:
+- Sección completa "Participación académica y publicaciones"
+- Todas las listas de publicaciones
+- Información sobre IADPI, OCEDIC, artículos, etc.
+
+MANTENIDO:
+- Área de Especialidad (Dorado - Primer subtítulo)
+- Experiencia profesional
+- Intervención en causas de relevancia pública
+
+NOTA IMPORTANTE:
+La página aún muestra la sección antigua en el navegador porque:
+1. El HTML fue editado correctamente
+2. El CSS fue actualizado
+3. Pero el navegador puede estar cacheando la versión anterior
+
+SOLUCIÓN:
+- Limpiar caché del navegador (Ctrl+Shift+Del)
+- O usar Ctrl+F5 para forzar recarga
+- O cerrar y abrir el navegador nuevamente
+
+ESTADO ACTUAL:
+- HTML: ✓ Actualizado (sin Participación académica)
+- CSS: ✓ Actualizado (tipografía y colores)
+- Navegador: ⚠ Puede mostrar versión en caché

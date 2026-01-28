@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página Principal -->
+    <url>
+        <loc>https://tudominio.com/</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Sección Defensa Penal -->
+    <url>
+        <loc>https://tudominio.com/#defensa</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Sección Atención a Víctimas -->
+    <url>
+        <loc>https://tudominio.com/#victimas</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Sección Proceso -->
+    <url>
+        <loc>https://tudominio.com/#proceso</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Sección Autoridad -->
+    <url>
+        <loc>https://tudominio.com/#autoridad</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Sección Blog -->
+    <url>
+        <loc>https://tudominio.com/#blog</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Artículo 1: Evidencia Digital -->
+    <url>
+        <loc>https://tudominio.com/blog/01_evidencia_digital.pdf</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Artículo 2: Querella Penal -->
+    <url>
+        <loc>https://tudominio.com/blog/02_querella_penal.pdf</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Artículo 3: Defensa Penal y Confianza -->
+    <url>
+        <loc>https://tudominio.com/blog/03_defensa_confianza.pdf</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Sección FAQ -->
+    <url>
+        <loc>https://tudominio.com/#faq</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

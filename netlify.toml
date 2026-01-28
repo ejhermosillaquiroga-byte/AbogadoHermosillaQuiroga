@@ -1,0 +1,202 @@
+# ============================================
+# CONFIGURACIÓN DE NETLIFY
+# Sitio: Hermosilla Quiroga Agustín
+# ============================================
+
+# ============================================
+# CONFIGURACIÓN DE BUILD
+# ============================================
+[build]
+  # Directorio de publicación (donde están los archivos finales)
+  publish = "."
+  
+  # Comando de build (no es necesario para sitio estático)
+  command = "echo 'Static site ready for deployment'"
+  
+  # Directorio de funciones (si las usas en el futuro)
+  functions = "functions"
+
+# ============================================
+# CONFIGURACIÓN DE CONTEXTOS
+# ============================================
+
+# Contexto de producción (rama principal)
+[context.production]
+  command = "echo 'Production build'"
+  environment = { CONTEXT = "production" }
+
+# Contexto de vista previa (ramas de PR)
+[context.deploy-preview]
+  command = "echo 'Deploy preview build'"
+
+# Contexto de rama (ramas de desarrollo)
+[context.branch-deploy]
+  command = "echo 'Branch deploy build'"
+
+# ============================================
+# REDIRECCIONES Y REESCRITURAS
+# ============================================
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Redirigir HTTP a HTTPS
+[[redirects]]
+  from = "http://hermosilla-website.netlify.app/*"
+  to = "https://hermosilla-website.netlify.app/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# ENCABEZADOS PERSONALIZADOS
+# ============================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Seguridad
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Caché
+    Cache-Control = "public, max-age=3600"
+    
+    # CORS
+    Access-Control-Allow-Origin = "*"
+
+# Encabezados para archivos estáticos
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Encabezados para CSS y JS
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/css; charset=utf-8"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "application/javascript; charset=utf-8"
+
+# Encabezados para HTML
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "text/html; charset=utf-8"
+
+# Encabezados para PDFs
+[[headers]]
+  for = "/blog/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "application/pdf"
+
+# ============================================
+# VARIABLES DE ENTORNO
+# ============================================
+[env]
+  # Variables globales
+  NODE_VERSION = "18.0.0"
+  RUBY_VERSION = "3.0.0"
+
+# ============================================
+# CONFIGURACIÓN DE NETLIFY CMS (Opcional)
+# ============================================
+# Descomenta si usas Netlify CMS en el futuro
+# [build.environment]
+#   HUGO_VERSION = "0.88.1"
+
+# ============================================
+# FUNCIONES NETLIFY (Opcional)
+# ============================================
+# Descomenta si necesitas funciones serverless
+# [[functions]]
+#   node_bundler = "esbuild"
+#   directory = "functions"
+
+# ============================================
+# NOTIFICACIONES (Opcional)
+# ============================================
+# Descomenta para recibir notificaciones
+# [notifications]
+#   email = "tu-email@example.com"
+
+# ============================================
+# ANÁLISIS (Opcional)
+# ============================================
+# Descomenta para habilitar análisis de Netlify
+# [analytics]
+#   enabled = true
+
+# ============================================
+# CONFIGURACIÓN DE FORMULARIOS (Opcional)
+# ============================================
+# Si agregas formularios en el futuro:
+# [[plugins]]
+#   package = "@netlify/plugin-sitemap"
+
+# ============================================
+# CONFIGURACIÓN DE PRECOMPRESIÓN
+# ============================================
+[[plugins]]
+  package = "@netlify/plugin-precompress"
+
+# ============================================
+# CONFIGURACIÓN DE IMÁGENES (Opcional)
+# ============================================
+# [[plugins]]
+#   package = "@netlify/plugin-image-optim"
+
+# ============================================
+# CONFIGURACIÓN DE SEGURIDAD
+# ============================================
+
+# Protección de archivos sensibles
+[[redirects]]
+  from = "/.env*"
+  to = "/.env-not-found"
+  status = 404
+
+[[redirects]]
+  from = "/.git*"
+  to = "/.git-not-found"
+  status = 404
+
+[[redirects]]
+  from = "/node_modules/*"
+  to = "/node-modules-not-found"
+  status = 404
+
+# ============================================
+# CONFIGURACIÓN DE DOMINIO PERSONALIZADO
+# ============================================
+# Una vez que tengas un dominio, configúralo en:
+# 1. Netlify: Site settings > Domain management
+# 2. Tu registrador de dominio: Apunta los DNS a Netlify
+# 3. Netlify: Habilita HTTPS automático
+
+# Ejemplo de dominio personalizado:
+# [context.production]
+#   environment = { URL = "https://hermosilla-quiroga.com" }
+
+# ============================================
+# NOTAS IMPORTANTES
+# ============================================
+# 1. Este archivo se ejecuta automáticamente cuando subes a Netlify
+# 2. No necesitas hacer nada especial - Netlify lo detecta automáticamente
+# 3. Puedes modificar este archivo para cambiar comportamientos
+# 4. Todos los cambios se aplican en el próximo despliegue
+# 5. Los logs de build están disponibles en Netlify Dashboard
+
+# ============================================
+# DOCUMENTACIÓN
+# ============================================
+# Más información en: https://docs.netlify.com/configure-builds/file-based-configuration/

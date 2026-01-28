@@ -1,0 +1,36 @@
+# Robots.txt para Hermosilla Quiroga Agustín
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /blog/
+
+# Desallowed paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /.env
+Disallow: /.git
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://tudominio.com/sitemap.xml
+
+# Specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

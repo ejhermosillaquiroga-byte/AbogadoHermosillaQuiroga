@@ -1,0 +1,149 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║              🚀 HERMOSILLA QUIROGA AGUSTÍN - SITIO WEB                    ║
+║                                                                            ║
+║                    INSTRUCCIONES DE DEPLOYMENT EN NETLIFY                 ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📦 ARCHIVO DESCARGADO:
+   hermosilla-deploy.zip (1.8 MB)
+
+   Contiene:
+   ✓ Sitio web completo y optimizado
+   ✓ Todas las imágenes
+   ✓ Artículos en PDF
+   ✓ Configuración automática de Netlify
+   ✓ Guías de deployment
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 PASOS PARA DESPLEGAR EN NETLIFY (MÁS FÁCIL - 3 MINUTOS):
+
+1️⃣  DESCOMPRIMIR EL ARCHIVO
+   • Haz clic derecho en "hermosilla-deploy.zip"
+   • Selecciona "Extraer aquí" o "Descomprimir"
+   • Se creará la carpeta "hermosilla-deploy"
+
+2️⃣  ACCEDER A NETLIFY
+   • Abre https://app.netlify.com
+   • Inicia sesión con tu cuenta
+
+3️⃣  CREAR NUEVO SITIO
+   • Haz clic en "Add new site"
+   • Selecciona "Deploy manually"
+
+4️⃣  SUBIR LA CARPETA
+   • Arrastra la carpeta "hermosilla-deploy" al área de drop
+   • O haz clic y selecciona la carpeta
+
+5️⃣  ESPERAR DEPLOYMENT
+   • Netlify procesará automáticamente
+   • En 30-60 segundos tu sitio estará en línea
+   • Verás una URL como: https://[nombre].netlify.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ VERIFICAR DESPUÉS DE DESPLEGAR:
+
+□ La página carga correctamente
+□ Todas las imágenes se ven
+□ Los PDFs del blog se descargan
+□ Los botones de WhatsApp funcionan
+□ El sitio es responsive en móvil
+□ No hay errores en la consola (F12)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 CAMBIAR EL NOMBRE DEL SITIO (OPCIONAL):
+
+1. Ve a Netlify Dashboard
+2. Haz clic en tu sitio
+3. Site settings → Site details
+4. Haz clic en "Change site name"
+5. Ingresa un nombre (ej: hermosilla-abogado)
+6. Guarda
+
+Tu sitio ahora estará en: https://hermosilla-abogado.netlify.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 AGREGAR DOMINIO PERSONALIZADO (OPCIONAL):
+
+1. Site settings → Domain management
+2. Haz clic en "Add custom domain"
+3. Ingresa tu dominio (ej: hermosilla-quiroga.com)
+4. Sigue las instrucciones para apuntar los DNS
+5. Netlify generará automáticamente un certificado SSL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTACIÓN INCLUIDA EN EL ZIP:
+
+• README_DEPLOYMENT.md
+  → Guía completa de deployment
+
+• DEPLOYMENT_GUIDE.md
+  → Instrucciones detalladas y solución de problemas
+
+• NETLIFY_QUICK_START.txt
+  → Resumen rápido de pasos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 SEGURIDAD (AUTOMÁTICA):
+
+✓ HTTPS/SSL - Certificado automático de Let's Encrypt
+✓ DDoS Protection - Protección contra ataques
+✓ Firewall - Protección de aplicación
+✓ Encabezados de seguridad - Configurados automáticamente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ CARACTERÍSTICAS INCLUIDAS:
+
+✓ Diseño responsive (móvil, tablet, desktop)
+✓ Animaciones scroll reveal
+✓ Integración WhatsApp 24/7
+✓ Blog con artículos en PDF
+✓ SEO optimizado
+✓ Formularios interactivos
+✓ Caché optimizado
+✓ CDN global
+✓ Uptime 99.99%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ PREGUNTAS FRECUENTES:
+
+P: ¿Cuánto cuesta Netlify?
+R: El plan básico es GRATUITO. Incluye todo lo que necesitas.
+
+P: ¿Puedo usar un dominio personalizado?
+R: Sí, puedes conectar cualquier dominio que tengas.
+
+P: ¿Qué pasa si hago cambios?
+R: Puedes reeditar los archivos y volver a subir.
+
+P: ¿Es seguro?
+R: Sí, Netlify proporciona HTTPS automático y seguridad de nivel empresarial.
+
+P: ¿Cuál es la velocidad?
+R: Netlify usa CDN global, tu sitio será muy rápido en cualquier parte del mundo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 SOPORTE:
+
+• Documentación: https://docs.netlify.com
+• Comunidad: https://community.netlify.com
+• Estado: https://www.netlify.com/status/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ ¡TU SITIO WEB ESTÁ LISTO PARA PRODUCCIÓN! 🎉
+
+Especialidades: Defensa Penal | Querellas | Ciberdelitos
+Ubicación: Esquel, Chubut, Argentina
+
+¡Bienvenido a Netlify! 🚀

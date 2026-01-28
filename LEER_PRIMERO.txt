@@ -1,0 +1,70 @@
+================================================================================
+  ✅ CARPETA COMPLETA LISTA PARA DESCARGAR Y DESPLEGAR EN NETLIFY
+================================================================================
+
+ARCHIVO: hermosilla-website.tar.gz (1.8 MB)
+
+CONTIENE TODO:
+✅ HTML (index.html)
+✅ CSS (styles.css)
+✅ JavaScript (script.js)
+✅ Imágenes (5 imágenes profesionales)
+✅ Blog (3 PDFs de artículos)
+✅ Configuración Netlify (netlify.toml, package.json)
+✅ Configuración Apache (.htaccess)
+✅ SEO (robots.txt, sitemap.xml)
+✅ Documentación (README, guías, etc.)
+
+================================================================================
+
+PASOS PARA DESPLEGAR EN NETLIFY (2 MINUTOS):
+
+1. DESCARGAR
+   Descargar: hermosilla-website.tar.gz
+
+2. EXTRAER
+   Windows: Descargar 7-Zip → Clic derecho → Extract
+   Mac: Doble clic (se extrae automáticamente)
+   Linux: tar -xzf hermosilla-website.tar.gz
+
+3. DESPLEGAR EN NETLIFY
+   a) Ir a: https://app.netlify.com
+   b) Crear cuenta (si no tienes)
+   c) Clic en "Add new site"
+   d) Seleccionar "Deploy manually"
+   e) Hacer drag & drop de la carpeta "hermosilla-website"
+   f) Esperar 30-60 segundos
+   g) ¡LISTO! Tu sitio está en vivo
+
+4. VERIFICAR
+   - Abrir URL en navegador
+   - Verificar que todo funciona
+   - ¡Felicidades!
+
+================================================================================
+
+CAMBIAR NÚMERO DE WHATSAPP (OPCIONAL):
+
+1. Abrir carpeta: hermosilla-website
+2. Abrir archivo: index.html (con editor de texto)
+3. Buscar: 5492944211769
+4. Reemplazar con tu número
+5. Guardar cambios
+6. Subir nuevamente a Netlify
+
+================================================================================
+
+RECURSOS:
+- Netlify: https://app.netlify.com
+- Netlify Docs: https://docs.netlify.com/
+- Netlify Support: https://support.netlify.com/
+
+================================================================================
+
+¡LISTO PARA DESCARGAR Y DESPLEGAR! 🚀
+
+Tiempo: 2 minutos
+Complejidad: Muy fácil
+Costo: Gratuito
+
+================================================================================

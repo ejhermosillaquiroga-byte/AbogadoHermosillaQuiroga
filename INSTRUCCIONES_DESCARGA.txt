@@ -1,0 +1,232 @@
+================================================================================
+  📥 INSTRUCCIONES DE DESCARGA Y DESPLIEGUE EN NETLIFY
+================================================================================
+
+ARCHIVO DISPONIBLE PARA DESCARGAR:
+================================================================================
+
+📦 hermosilla-website.tar.gz (1.8 MB)
+
+Este archivo contiene TODA tu página web lista para Netlify.
+
+================================================================================
+
+PASO 1: DESCARGAR EL ARCHIVO
+================================================================================
+
+El archivo está disponible en tu carpeta de descargas:
+~/Downloads/hermosilla-website.tar.gz
+
+O puedes descargarlo desde aquí:
+https://manus.computer/descargas/hermosilla-website.tar.gz
+
+================================================================================
+
+PASO 2: EXTRAER EL ARCHIVO
+================================================================================
+
+EN WINDOWS:
+1. Descargar 7-Zip (gratuito): https://www.7-zip.org/
+2. Hacer clic derecho en hermosilla-website.tar.gz
+3. Seleccionar "7-Zip" → "Extract Here"
+4. Se creará la carpeta "hermosilla-website"
+
+EN MAC:
+1. Hacer doble clic en hermosilla-website.tar.gz
+2. Se extrae automáticamente
+3. Se crea la carpeta "hermosilla-website"
+
+EN LINUX:
+tar -xzf hermosilla-website.tar.gz
+
+================================================================================
+
+PASO 3: VERIFICAR LA CARPETA
+================================================================================
+
+Después de extraer, deberías ver:
+
+hermosilla-website/
+├── index.html
+├── styles.css
+├── script.js
+├── package.json
+├── netlify.toml
+├── .htaccess
+├── robots.txt
+├── sitemap.xml
+├── images/
+│   ├── logo.jpeg
+│   ├── biblioteca-hero.jpg
+│   ├── carcel.jpg
+│   ├── consulta-psicologia.avif
+│   └── oficina-moderna.webp
+└── blog/
+    ├── 01_evidencia_digital.pdf
+    ├── 02_querella_penal.pdf
+    └── 03_defensa_confianza.pdf
+
+✅ Si ves todos estos archivos, está correcto.
+
+================================================================================
+
+PASO 4: DESPLEGAR EN NETLIFY (2 MINUTOS)
+================================================================================
+
+OPCIÓN A: DRAG & DROP (MÁS FÁCIL)
+
+1. Ir a: https://app.netlify.com
+2. Crear cuenta (si no tienes):
+   - Hacer clic en "Sign up"
+   - Usar GitHub, Google o email
+3. Hacer clic en "Add new site"
+4. Seleccionar "Deploy manually"
+5. Hacer drag & drop de la carpeta "hermosilla-website"
+6. Esperar 30-60 segundos
+7. ¡LISTO! Tu sitio está en vivo
+
+URL: https://hermosilla-website.netlify.app (o similar)
+
+OPCIÓN B: CON GITHUB (DESPLIEGUES AUTOMÁTICOS)
+
+1. Subir carpeta a GitHub
+2. Ir a: https://app.netlify.com
+3. Hacer clic en "Add new site"
+4. Seleccionar "Import an existing project"
+5. Conectar con GitHub
+6. Seleccionar repositorio
+7. Hacer clic en "Deploy site"
+8. ¡LISTO!
+
+================================================================================
+
+PASO 5: VERIFICAR QUE TODO FUNCIONA
+================================================================================
+
+Después de desplegar:
+
+✅ Abrir la URL en navegador
+✅ Verificar que todas las secciones cargan
+✅ Verificar que las imágenes se ven bien
+✅ Probar botones de WhatsApp
+✅ Probar blog y descargas de PDFs
+✅ Probar FAQ interactivo
+✅ Probar en móvil (responsive)
+✅ Verificar que HTTPS está activo
+
+Si todo funciona, ¡FELICIDADES! Tu sitio está en vivo.
+
+================================================================================
+
+PASO 6: CAMBIAR NÚMERO DE WHATSAPP (OPCIONAL)
+================================================================================
+
+Si necesitas cambiar el número de WhatsApp:
+
+1. Abrir la carpeta "hermosilla-website"
+2. Abrir "index.html" con editor de texto (Notepad, VS Code, etc.)
+3. Buscar: 5492944211769
+4. Reemplazar con tu número
+5. Guardar cambios
+6. Subir cambios a Netlify (drag & drop nuevamente)
+7. ¡Listo!
+
+================================================================================
+
+PASO 7: CONFIGURAR DOMINIO PERSONALIZADO (OPCIONAL)
+================================================================================
+
+Si tienes un dominio propio (ej: hermosilla-quiroga.com):
+
+1. Ir a Netlify Dashboard
+2. Ir a "Site settings"
+3. Hacer clic en "Domain management"
+4. Hacer clic en "Add domain"
+5. Ingresar tu dominio
+6. Seguir instrucciones para configurar DNS
+7. Esperar 24-48 horas para propagación
+8. ¡Listo!
+
+================================================================================
+
+PROBLEMAS COMUNES Y SOLUCIONES
+================================================================================
+
+PROBLEMA: No puedo extraer el archivo
+SOLUCIÓN: 
+- En Windows: Descargar 7-Zip (https://www.7-zip.org/)
+- En Mac: Hacer doble clic
+- En Linux: tar -xzf hermosilla-website.tar.gz
+
+PROBLEMA: El archivo no se descarga
+SOLUCIÓN:
+- Verificar conexión a internet
+- Intentar en navegador diferente
+- Descargar desde otra ubicación
+
+PROBLEMA: El sitio no carga después de desplegar
+SOLUCIÓN:
+- Verificar que todos los archivos están en la carpeta
+- Revisar logs de Netlify (Deploys → Ver logs)
+- Contactar con Netlify support
+
+PROBLEMA: Las imágenes no se ven
+SOLUCIÓN:
+- Verificar que la carpeta "images/" existe
+- Verificar que las imágenes están en la carpeta
+- Revisar logs de Netlify
+
+PROBLEMA: Los botones de WhatsApp no funcionan
+SOLUCIÓN:
+- Verificar que el número es correcto
+- Verificar que el formato es: https://wa.me/NUMERO
+- Probar en navegador diferente
+
+================================================================================
+
+RECURSOS ÚTILES
+================================================================================
+
+Netlify Docs: https://docs.netlify.com/
+Netlify Support: https://support.netlify.com/
+Netlify Status: https://www.netlifystatus.com/
+
+Documentación incluida en la carpeta:
+- DEPLOY_NETLIFY.md - Guía completa
+- NETLIFY_QUICK_START.txt - Referencia rápida
+- README.md - Documentación general
+
+================================================================================
+
+RESUMEN RÁPIDO
+================================================================================
+
+1. Descargar: hermosilla-website.tar.gz
+2. Extraer: Descomprimir archivo
+3. Desplegar: Drag & drop en Netlify
+4. Verificar: Abrir URL en navegador
+5. ¡LISTO! Tu sitio está en vivo
+
+Tiempo total: 5-10 minutos
+Complejidad: Muy fácil
+Costo: Gratuito
+
+================================================================================
+
+¿NECESITAS AYUDA?
+================================================================================
+
+1. Revisar documentación incluida
+2. Revisar Netlify Docs
+3. Contactar con Netlify support
+4. Contactar con tu proveedor de hosting
+
+================================================================================
+
+¡FELICIDADES! Tu sitio web está listo para el mundo! 🌍
+
+Generado: 26 de Enero de 2026
+Versión: 1.0
+Estado: ✅ LISTO PARA DESCARGAR Y DESPLEGAR
+
+================================================================================

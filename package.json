@@ -1,0 +1,38 @@
+{
+  "name": "hermosilla-quiroga-website",
+  "version": "1.0.0",
+  "description": "Sitio web profesional para Hermosilla Quiroga Agustín - Estudio de Defensa Penal y Querellas",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1",
+    "build": "echo 'Static site - no build needed'",
+    "test": "echo 'No tests configured'",
+    "serve": "http-server -p 8000"
+  },
+  "keywords": [
+    "abogado",
+    "defensa penal",
+    "querellas",
+    "derecho penal",
+    "asesoramiento legal",
+    "Chubut",
+    "Esquel"
+  ],
+  "author": "Hermosilla Quiroga Agustín",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/hermosilla-website"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
